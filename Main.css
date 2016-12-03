@@ -1,0 +1,170 @@
+body {
+    background:#1C1C1C;
+    font-family: Times New Roman;
+    font-size: 14pt;
+}
+#container {
+    background: #1C1C1C;
+    margin: auto;
+    width: 900px;
+}
+#header {
+   width: 900px; 
+    text-align: center;
+    background: #BCF5A9;
+	border-radius: 30px 30px 0 0;
+
+}
+#navigation {
+     width: 900px;
+    height: 50px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navigation li {
+    float: left;
+    width: 180px;
+    height: 40px;
+    font-size: 16pt;
+    text-align: center;
+    display: block;
+    padding-top: 10px; 
+    background: #31954A;
+}
+#navigation li:hover {
+    background: #38A453;
+}
+A {
+    text-decoration: none;
+    color: black;
+}
+A:visited {
+    color: black;
+}
+A:active {
+    color: black;
+}
+#content {
+    background-image: url(img/fon.jpg);
+    padding: 15px;    
+}
+#content_ist {
+    background: #F5DA81;
+    padding: 15px;    
+}
+.viner{
+    float: left;
+    margin-right:8px;
+    
+}
+.beer {
+    float: left;
+    margin-right: 8px;
+}
+.ramka {
+     border:2px solid #31954A;
+}
+.viner2 {
+    float: left;
+    width: 280px;
+    text-align: center;
+    margin-right: 8px;
+}
+.beer2 {
+    float: left;
+    width: 280px;
+    text-align: center;
+    margin-right: 8px;
+}
+.univer2 {
+    float: left;
+    width: 280px;
+    text-align: center;
+    margin-right: 8px;
+}
+.text {
+    margin-top: 100px;
+}
+#content_spets {
+    background: #BCF5A9;
+    padding: 15px;
+}
+.video {
+    display: block;
+   margin: auto;
+    margin-bottom: 15px;
+}
+#content_test {
+    background: #BCF5A9;
+    padding: 15px;
+}
+.test1 {
+   text-align: center; 
+    font-size: 16pt;
+}
+.test2 {
+   text-align: center; 
+    font-size: 16pt;
+}
+.img {
+    float: left;
+}
+.knopka1 {
+display: block;
+}
+
+.knopka2 {
+display: block;
+margin-top: 0px;
+}
+#content_map {
+    background: #BCF5A9;
+    padding: 15px;
+}
+
+#content_kharkiv {
+    background: #F5DA81;
+    padding: 30px;
+    height: 1050px;
+    text-align: center;
+}
+
+#content_vuz {
+     background: #F5DA81;
+    padding:2px;
+    text-align: center;
+}
+
+.photo1 {
+	overflow:hidden;
+	margin-right: 25px;
+	border:3px solid #31954A;
+}
+.photo2 {
+	overflow:hidden;
+	border:3px solid #31954A;
+}
+
+.block1 {
+	width: 430px;
+	float: left;
+	clear:both;
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+
+.block2 {
+margin-bottom: 30px;
+}
+
+
+#footer {
+    background: #31954A;
+    text-align: right;
+    font-size: 12pt;
+	height: 30px;
+	padding: 10px 20px 0 0;
+	border-radius: 0 0 30px 30px;
+}

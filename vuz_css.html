@@ -1,0 +1,75 @@
+<html>
+<head>
+ <meta charset="utf-8">
+  <title>Profit</title>
+    <link rel="stylesheet" type="text/css" href="Main.css">
+    <link rel="shortcut icon" href="img/icon.ico" type="image/png">
+    <meta name="keywords" content="карта, Киев, Львов, Луганск, Донецк, Херсон, Хмельницкий, Одесса,Днепропетровск, Харьков, Полтава">
+    <meta name="description" content="Сайт об экономической кибернетике">
+    
+     <script language="JavaScript">
+
+function clock_form()
+
+         {
+
+	 day=new Date()
+
+	 clock_f=day.getHours()+":"+day.getMinutes()+":"+day.getSeconds()
+
+	 document.form.f_clock.value=clock_f
+
+         id=setTimeout("clock_form()",100)
+
+	 }
+
+</script>
+</head>
+ 
+<body onLoad="clock_form()">
+
+    <div id="container">
+        
+ <div id="header">
+     <img src="img/profit..png" width=800 height=133>
+     </div>
+
+<ul id="navigation">
+    <li><a href="index.html">
+        Главная</a></li>
+    <li><a href="history_for_css.html">
+        История</a></li>
+    <li><a href="spetsial_css.html">
+        О специальности</a></li>    
+    <li><a href="vuz_css.html">
+        ВУЗы</a></li>
+     <li><a href="test_css.html">
+        Тесты</a></li>
+</ul>
+ 
+<div id="content_map">
+    <form name=form metod="get" align="right">
+
+<input name=f_clock maxlength=5 size=5>
+
+</form>
+    <img src="img/ukraine.png" width="750" height="450" usemap="#Navigation" class="karta"> 
+<p><map name="Navigation"> 
+<area shape="circle" coords="350,120,25" href="kyiv.html" alt="Киев"> 
+<area shape="circle" coords="90, 135, 25" href="lviv.html" alt="Львов"> 
+<area shape="circle" coords="585,145,25" href="kharkiv.html" alt="Харьков"> 
+<area shape="circle" coords="651,230,25" href="donetsk.html" alt="Донецк"> 
+<area shape="circle" coords="692,170,25" href="lugansk.html" alt="Луганск"> 
+<area shape="circle" coords="350,300,25" href="odessa.html" alt="Одесса"> 
+<area shape="circle" coords="540,210,25" href="dnepr.html" alt="Днепр"> 
+<area shape="circle" coords="490,315,25" href="herson.html" alt="Херсон"> 
+<area shape="circle" coords="480,145,25" href="poltava.html" alt="Полтава"> 
+<area shape="circle" coords="210,160,25" href="khmelnitskiy.html" alt="Хмельницкий"> 
+    </map></p></div>
+    <div id="footer">
+ © <a href="https://vk.com/id113316727">Victoria Yarotskaya</a>, 2016
+</div>
+</div> 
+    
+</body>
+</html>
